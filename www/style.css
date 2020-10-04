@@ -1,0 +1,67 @@
+.ui.menu {
+    background: #ffc107;
+    font-weight: 400;
+    border: 1px solid #ffc107;
+    box-shadow: 0 1px 2px 0 #ffc107;
+}
+
+.ui.tabular.menu .item {
+    background: #243030;
+    color: #ffc107;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.ui.tabular.menu .active.item {
+    background: #ffc107;
+    color: #243030;
+    border-color: #ffc107;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.ui.tabular.menu {
+    background: #243030;
+    border-bottom: 1px solid #243030;
+}
+
+.ui.selection.dropdown {
+    margin-bottom: 10px;
+    background: #243030;
+    color: #ffc107;
+    border: 1px solid #243030;
+}
+.ui.selection.active.dropdown .menu {
+    border-color: #e8e8e8;
+    box-shadow: 0 2px 3px 0 #243030;;
+}
+
+.ui.dropdown .menu {
+    background: #e8e8e8;
+    font-weight: bold;
+    text-align: left;
+    transition: opacity .1s ease;
+}
+
+.ui.table>thead>tr>th {
+    background: #243030;
+    color: #ffc107;
+}
+.ui.ui.menu .item.disabled {
+    background-color: #ffc107;
+    color: #243030;
+    font-weight: bold;
+}
+.ui.pagination.menu .active.item {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.ui.table {
+    color: #243030;
+    font-weight: bold;
+}
+
+.ui.header {
+    margin-bottom: -5px;
+}
