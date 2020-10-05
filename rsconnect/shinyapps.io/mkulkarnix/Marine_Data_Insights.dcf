@@ -5,9 +5,9 @@ account: mkulkarnix
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2940435
-bundleId: 3701129
+bundleId: 3703237
 url: https://mkulkarnix.shinyapps.io/Marine_Data_Insights/
-when: 1601824797.84196
+when: 1601882447.34694
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .RData|xtra/app.R|xtra/info.R|xtra/ships.Rmd|xtra/ships_data.zip

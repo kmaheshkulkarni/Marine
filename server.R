@@ -5,8 +5,8 @@ function(input, output, session) {
     # updateSelectizeInput(session = session, inputId = "vessel_names",label = "Vessel Names",
     #                      choices = as.character(unique(ships$SHIPNAME[ships$ship_type == input$vessel_type])))
 
-    update_dropdown_input(session = session, input_id = "vessel_names",
-                    choices = as.character(unique(ships$SHIPNAME[ships$ship_type == input$vessel_type])))
+    update_dropdown_input(session = session, input_id = "vessel_name",
+                          choices = as.character(unique(ships$SHIPNAME[ships$ship_type == input$vessel_type])))
   })
 
   observeEvent(input$insights,{
